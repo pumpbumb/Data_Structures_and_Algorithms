@@ -50,7 +50,7 @@ class BinarySearch():
 if __name__ == "__main__":
   # We must initialize the class to use the methods of this class
   bs = BinarySearch()
-  my_list = [1, 3, 5, 7, 9]
+  my_list = [1, 3, 5, 7, 9]  # sorted list (有序列表)
   
   print(bs.search_iterative(my_list, 3)) # => 1
 
