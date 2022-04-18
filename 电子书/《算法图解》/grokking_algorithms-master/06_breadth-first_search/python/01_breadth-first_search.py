@@ -17,7 +17,7 @@ def search(name):
     search_queue = deque()
     search_queue += graph[name]
     # This is how you keep track of which people you've searched before.
-    searched = set()
+    searched = set()  # 创建空集合
     while search_queue:
         person = search_queue.popleft()
         # Only search this person if you haven't already searched them.
